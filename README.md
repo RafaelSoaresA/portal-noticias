@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+##Projeto Portal Novo Notícias
 ## Getting Started
-
-First, run the development server:
-
-```bash
+Primeiro é necessário utilizar o comando:
+```
+npm install
+```
+Para instalar as dependências dentro do projeto!
+Após isso, é só executar o projeto utilizando o comando:
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra o seguinte link: [http://localhost:3000](http://localhost:3000). Neste link é possível utilizar a aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades:
 
-## Learn More
+A aplicação até o presente momento consome a API do New York Times, utilizando apenas as "Top Stories" que aparecem na Home quando abrimos o site oficial do jornal.
 
-To learn more about Next.js, take a look at the following resources:
+Ao que foi proposto no desafio, ele está completo, mas ainda é um projeto em processo de desenvolvimento, que atualizará as funcionalidades presentes na Header do projeto (filtro por categorias e login).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O atual projeto possui em sua tela inicial elementos de imagem, texto, autor e data de publicação para cada uma das matérias.
+Ao clicar na imagem ou no texto abstrato da matéria, é aberto um Modal ao invés de uma página nova, o que deixa mais "clean" para utilizar enquanto não possuímos o texto completo de cada matéria.
+No modal temos as mesmas informações que na tela principal, porém, existe a opção de clicar em um botão que redireciona para a matéria no site oficial do New York Times, sendo assim uma forma de trazer a informação completa.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

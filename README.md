@@ -1,6 +1,12 @@
-##Projeto Portal Novo Notícias
-## Getting Started
-Primeiro é necessário utilizar o comando:
+
+## Projeto Portal Novo Notícias
+Bem-vindo(a) ao Portal Novo Notícias!
+
+Para rodar a aplicação é necessário:
+- Abrir o ZIP do projeto;
+- Executar na IDE, de preferência o VSCode;
+##
+Após isso, utilize o comando:
 ```
 npm install
 ```
